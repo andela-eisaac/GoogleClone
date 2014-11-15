@@ -179,20 +179,18 @@ BODY
 }
 
 .search input:focus {
-  border-color: #1e90ff;
-  border-width: 0.01px;
+  border-color: #4169e1;
+  border-width: 1%;
 }
-
-/*background: url(images/comment-author.gif) no-repeat scroll 7px 7px;
-padding-left:30px;*/
 
 .buttons {
   width: 600px;
   margin-top: 20px;
   text-align: center;
   margin: 20px auto;
-  /*border-width: thin;
-  border-style: solid;*/
+  border-width: thin;
+  border-color: #dcdcdc;
+  opacity: .8;
 }
 
 .buttons input {
