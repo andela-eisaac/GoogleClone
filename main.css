@@ -61,11 +61,9 @@ header {
   margin-top: 0;
   padding: 10px;
   text-align: right;
-  /*border: solid thin;*/
 }
 
 nav {
-  /*border: solid thin;*/
   height: 2em;
 }
 nav li {
@@ -103,20 +101,18 @@ nav li[class="apps-icon"]:hover {
 
 .sign_in a{
   border: solid 2px #4169e1;
-  /*text-decoration: none;*/
   background: #4169e1;
   color: white;
   font-family: Arial, sans-serif;
   padding: 7px 15px;
   font-size: 0.8em;
   border-radius: 5px;
-
-
 }
 
 .sign_in:hover {
   text-decoration: none;
 }
+
 h2 {
   min-height: 145px;
   min-width: inherit;
@@ -153,17 +149,13 @@ BODY
   height: 1.75em;
   margin: 20px auto auto;
   text-align: center;
-  /*margin: 0 auto;*/
-  /*border-style:solid;
-  border-color: black;
-  border-width: thin;*/
 }
 
 .search input {
   width: 595px;
   height: 1.85em;
   margin-left: 0;
-  border-color: #dcdcdc;
+  border-color: lightgray;
   border-width: 1px;
   border-style: solid;
   background: url('img/micg.gif') no-repeat 99% center;
@@ -206,6 +198,7 @@ BODY
 .buttons input:hover {
   box-shadow: 0px 0px 5px #c0c0c0; 
 }
+
 .buttons input[value="Google Search"] {
   margin-right: 10px;
 }
@@ -231,20 +224,23 @@ BODY
 .languages a:hover {
   text-decoration: underline;
 }
+
 .container {
   margin: 0 auto;
-  /*border: thin solid;*/
   min-width: 480px;
   width: 600px;
-
 }
 
-.left li {
+footer li {
   display: inline-block;
 }
+
 .left {
   float: left;
+}
 
+.right {
+  float: right;
 }
 
 .left a {
@@ -253,13 +249,6 @@ BODY
 
 .right a {
   padding-right: 30px;
-}
-
-.right li {
-  display: inline-block;
-}
-.right {
-  float: right;
 }
 
 .left a, .right a {
@@ -280,13 +269,6 @@ footer {
   position: absolute;
   bottom:0 ;
   width: 100%;
-  /*border: solid thin;*/
   height: 2.5em;
   background: #f5f5f5;
-  /*padding: 5px 5px auto;*/
-
 }
-
-
-
-
